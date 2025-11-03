@@ -26,7 +26,7 @@ interface MenuButtonProps {
 export default function MenuButton({ selectedYear, onYearChange, onSettingsClick }: MenuButtonProps) {
   const { toast } = useToast();
   const currentYear = new Date().getFullYear();
-  const years = Array.from({ length: 16 }, (_, i) => currentYear + i);
+  const years = Array.from({ length: 35 }, (_, i) => currentYear + i);
 
   const handleShare = async () => {
     const url = window.location.href;
