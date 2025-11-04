@@ -72,7 +72,7 @@ export default function MenuButton({ selectedYear, onYearChange, onSettingsClick
   };
 
   const handleViewCode = () => {
-    window.open('https://github.com', '_blank');
+    window.open('https://codepen.io/collection/WQbWVZ', '_blank');
   };
 
   return (
